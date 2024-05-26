@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Section3</title>
+    <link rel="stylesheet" href="../css files/main.css" />
+    <link rel="stylesheet" href="../css files/section3.css" />
+  </head>
+  <body>
+    <div class="main section3main">
+      <!-- cover image  -->
+      <div id="left">
+        <!-- logo and brand name  -->
+        <span id="brand">
+          <img src="../assets/logo.png" height="60em" alt="logo" />
+          <span>Uzhavan</span>
+        </span>
+      </div>
+      <!-- content -->
+      <div id="right">
+        <div class="content-after">
+          <!-- title  -->
+          <div style="text-align: center">
+            <span class="card-title">Welcom to Machinery's Owner</span>
+            <p>Please enter your details.</p>
+          </div>
+          <!-- form ? -->
+          <div>
+            <label for="fullname">Full Name</label>
+            <br /><br />
+            <input
+              class="card-input"
+              placeholder="Enter your fullname"
+              type="text"
+              name="fullname"
+              id="fullname"
+              required
+            />
+            <br /><br />
+            <label for="nic">NIC number</label>
+            <br /><br />
+            <input
+              placeholder="Enter your NIC"
+              class="card-input"
+              type="text"
+              name="nic"
+              id="nic"
+              required
+            />
+            <br /><br />
+            <label for="telno">Telephone number</label>
+            <br /><br />
+            <input
+              class="card-input"
+              placeholder="Enter your telephone number"
+              type="number"
+              name="telephone"
+              id="telno"
+              required
+            />
+            <br /><br />
+            <label for="address">Address</label>
+            <br /><br />
+            <input
+              class="card-input"
+              placeholder="Enter your address"
+              type="text"
+              name="address"
+              id="address"
+              required
+            />
+            <br /><br />
+            <!-- dropdown  -->
+            <label for="vehicle">Choose your vehicle</label>
+            <br /><br />
+            <select
+              name="vehicles"
+              id="vehicle"
+              
+              required
+              
+            >
+              <option value="Tractor" disabled selected>Select your vehicle</option>
+              <option value="Tractor">Tractor</option>
+              <option value="Combine">Combine</option>
+              <option value="ATV/RTV/UTV">ATV/RTV/UTV</option>
+              <option value="Transport truck">Transport truck</option>
+              <option value="Grain cart">Grain cart</option>
+            </select>
+            <br /><br />
+            <label for="email">Email</label>
+            <br /><br />
+            <input
+              class="card-input"
+              placeholder="Enter your email"
+              type="email"
+              name="email"
+              id="email"
+              required
+            />
+            <br /><br />
+            <label for="password">Password</label>
+            <br /><br />
+            <input
+              class="card-input"
+              placeholder="Enter your password"
+              type="password"
+              name="password"
+              id="password"
+              required
+            />
+            <br /><br />
+            <label for="cpass">Confirm password</label>
+            <br /><br />
+            <input
+              class="card-input"
+              placeholder="Confirm your password"
+              type="password"
+              name="confirmpass"
+              id="cpass"
+              required
+            />
+            <br /><br />
+            <a href="#"><div class="card login">Sign in</div></a>
+            <br /><br />
+          </div>
+          <span>Don' have an account? <a href="#">Sign up free!</a></span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

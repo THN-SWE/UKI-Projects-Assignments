@@ -1,0 +1,45 @@
+
+#section2main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    height: 80vh;
+}
+
+#right, #left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+     
+    
+}
+#right{
+    background-color: #222933a1;
+    color: aliceblue;
+    border: 2px solid rgb(121, 121, 121);
+}
+#left{
+    background-color: aliceblue;
+}
+
+/* .card:hover{
+
+} */
+.card span{
+    display: grid;
+    justify-content:center;
+    align-items:center;
+    grid-template-columns: 1fr 3fr;
+    width: 100%;
+
+   
+    /* gap: 30%; */
+}
+
+.card span span{
+    font-weight: 600;
+    display: inline;
+    justify-self: center;
+}

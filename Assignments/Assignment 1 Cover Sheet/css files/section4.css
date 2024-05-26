@@ -1,0 +1,30 @@
+.section4main {
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+  }
+  
+  #right,
+  #left {
+    padding: 5%;
+  }
+  #left {
+    background-image: url(../assets/farmer.jpg);
+    border-image-repeat: stretch;
+    background-size: cover;
+    background-position: 50%, 50%;
+  }
+  
+  #right {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 4%;
+  
+    background-color: #222933a1;
+    color: aliceblue;
+    border: 2px solid rgb(121, 121, 121);
+  }
+  

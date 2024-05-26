@@ -1,0 +1,126 @@
+body {
+  background-image: url(../assets/farm.jpg);
+  border-image-repeat: stretch;
+  background-size: cover;
+}
+.main {
+  margin: 3%;
+
+  height: fit-content;
+  /* padding: 3%; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border-radius: 10px; */
+
+  /* height: 90vh; */
+
+  /* justify-content: space-between;
+    align-items: center; */
+}
+
+.card {
+  /* border: 1px solid rgb(94, 94, 94); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #b9b8b8;
+  border-radius: 25px;
+
+  padding: 12px;
+  font-size: 2vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  width: 30vw;
+  height: 3vw;
+
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-input {
+  /* border: 1px solid rgb(94, 94, 94); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #b9b8b8;
+  border-radius: 25px;
+
+  padding: 10px;
+  font-size: 1.5vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  width: 30vw;
+  height: 3vw;
+
+  /* display: inline-flex; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+}
+
+.card:hover {
+  cursor: pointer;
+}
+.card-title {
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-after {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 10rem;
+
+  /* padding: 10% 40% 20% 40%; */
+  gap: 5vh;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#brand {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(23, 141, 23);
+  font-size: 2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  /* gap:; */
+}
+
+#right,
+#left {
+  border-radius: 10px;
+}
+
+.bgwhite {
+  color: black;
+  background-color: aliceblue;
+}
+.bgblack {
+  color: aliceblue;
+  background-color: black;
+}
+.login {
+  background-color: #15803d;
+  color: aliceblue;
+}
+
+select {
+  /* border: 1px solid rgb(94, 94, 94); */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid #b9b8b8;
+  border-radius: 25px;
+
+  padding: 12px;
+  font-size: 1.5vw; 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  width: 100%;
+  /* height: 3vw; */
+
+  /* display: inline-flex;
+  justify-content: space-around;
+  align-items: center; */
+}
