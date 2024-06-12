@@ -160,7 +160,7 @@
 
 //10//
 
-// // checking age is enough to be an adult
+// // checking age if it is enough to be an adult
 // let age = 17;
 // const isAdult = age >= 18 ? "Adult" : "Child";
 // console.log(isAdult); // child
@@ -225,16 +225,18 @@
 
 //15//
 
-// // updating employee obj with updates obj
-// const employee = { name: "John", position: "Developer", salary: 50000 };
-// const updates = { position: "Senior Developer", salary: 60000 };
+// updating employee obj with updates obj
+const employee = { name: "John", position: "Developer", salary: 50000 };
+const updates = { position: "Senior Developer", salary: 60000 };
 
-// function updateEmployeeRecord(employee, updates) {
-//   employee.position = updates.position;
-//   employee.salary = updates.salary;
-//   return employee
-// }
-// console.log(updateEmployeeRecord(employee, updates));
+function updateEmployeeRecord(employee, updates) {
+  // before understanding mutablity & immutablity
+  //   employee.position = updates.position;
+  //   employee.salary = updates.salary;
+  employee = { ...employee, ...updates };
+  return employee;
+}
+console.log(updateEmployeeRecord(employee, updates));
 
 //16//
 
@@ -298,7 +300,6 @@
 // let newUser2 = { username: "user", password: "user1434" };
 // let newUser3 = { username: "user", password: "user1534" };
 
-
 // function registerUser(userDB, user) {
 //   // for checking any username duplicates
 //   let no_same_username_count = 0;
@@ -315,7 +316,6 @@
 //     userDB.push(user);
 //   }
 
- 
 //   return userDB;
 // }
 // console.log(registerUser(userDB, newUser1));
@@ -324,3 +324,4 @@
 
 //20//
 // repeated question
+
