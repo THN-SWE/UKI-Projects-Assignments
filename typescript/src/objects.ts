@@ -21,3 +21,4 @@ let employee: {
 // because we don't have a single place to define the object
 
 // this is where we use type alias
+
